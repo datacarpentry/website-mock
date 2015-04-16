@@ -12,8 +12,6 @@
 <script> 
 $(function(){
   $("#head").load("head.html"); 
-  $("#side").load("side.html"); 
-  $("#recent").load("recent.html"); 
 });
 </script> 
 
@@ -26,57 +24,88 @@ $(function(){
     
 <div id="content">
     <div class="inner container_12 clearfix">
-        <div id="main" class="grid_8">
-
-<p><strong>
-Data Carpentry is a sibling organization of Software Carpentry designed to teach basic concepts, skills 
-and tools for working more effectively with data.
-
-</strong></p>
-
-<p>In many domains of research the rapid generation of large
-amounts of data is fundamentally changing how research is done. The deluge of data 
-presents great
-opportunities, but also many challenges in managing, analyzing and
-sharing data. Data Carpentry aims to teach the 
-skills that will enable researchers to be more effective and
-productive. 
-The workshop is designed for learners with little to no prior knowledge of
-programming, shell scripting, or command line tools.
-</p>
+        <div id="main" class="grid_12">
 
 <p>
-<strong>Learning objectives for the workshops: Researchers should be
-      able to retrieve, view, manipulate, analyze and store their's and
-      other's data in an open and reproducible way. Researchers learn best
-      when material is taught in their domain, so workshops will be domain-specific.
-</strong>
-</p>
+We have or are developing lessons in different domains. These are links
+to the github development repositories, but we're transitioning them 
+over to viewable web sites for each lesson.
+
+<!--
+Interested in helping to develop
+the lessons?
+
+<h3>How to Contribute</h3>
+This is some information on how to contribute
+-->
+
 
 <p>
-To attain this objective, we identified the following teaching subjects.
+<h3>Lessons</h3>
+
+<hr>
+<h4>Ecology</h4>
+<h5>Status: Currently being taught</h5>
+<b>Dataset: <a href=http://figshare.com/articles/Portal_Project_Teaching_Database/1314459>Portal Project Teaching Database</a></b>
+<br>A time-series for a small mammal community in southern Arizona
+<p>&nbsp;
+<br>
+<b>Lessons:</b>
 <ul>
-<li> How to use spreadsheet programs (such as Excel) more effectively, and the limitations of such programs.
-<li> Getting data out of spreadsheets and into more powerful tools --- using R or Python.
-<li> Using databases, including managing and querying data in SQL.
-<li> Workflows and automating repetitive tasks, in particular using the command line shell and shell scripts.
+
+<li><a href=https://github.com/datacarpentry/excel-ecology>excel-ecology</a>
+<br>Topic maintainers: Tracy Teal 
+
+<li><a href=https://github.com/datacarpentry/OpenRefine-ecology>OpenRefine-ecology</a>
+<br>Topic maintainers: Deborah Paul
+
+<li><a href=https://github.com/datacarpentry/R-ecology>R-ecology</a> 
+<br>Topic maintainers: Francois Michonneau & Karthik Ram
+
+<li><a href=https://github.com/datacarpentry/python-ecology>python-ecology</a>
+<br>Topic maintainers: Leah Wasser & John Gosset
+
+<li><a href=https://github.com/datacarpentry/sql-ecology>sql-ecology</a>
+<br>Topic maintainers: Ethan White
+
+<li><a href=https://github.com/datacarpentry/shell-ecology>shell-ecology</a>
+<br>Topic maintainers:
+
 </ul>
-</p>
 
-			
+<hr>
+<h4>Genomics</h4>
+<h5>Status: Under development</h5>
+<!--
+<b>Dataset: 
+<br>
+-->
+<p>&nbsp;
+<br>
+<b>Lessons:</b>
+<br>
+<ul>
+<li><a href=https://github.com/datacarpentry/cloud-genomics>cloud-genomics</a>
+<br>Topic maintainers: 
 
+
+</ul>
+
+<!--
 <div id="home-bottom" class="clearfix">
+<h3>Past Activities</h3>
+<div id="past"></div>
+</div>
+-->
 
-<h3>Recent Activities</h3>
 
-<div id="recent"></div>
 
-</div><!-- end home-bottom -->
+
+
+
             
 
 </div><!-- end main -->
-
-<div id="side"></div>
 
 
 </div><!-- end content inner -->
